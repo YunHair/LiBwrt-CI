@@ -52,7 +52,7 @@ git clone --depth=1 https://github.com/sirpdboy/luci-theme-kucat package/luci-th
 #git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 #git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
 #git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
-
+git clone --depth=1 https://github.com/douglarek/luci-app-homeproxy package/luci-app-homeproxy
 
 
 # Themes
