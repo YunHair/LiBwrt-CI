@@ -39,7 +39,7 @@ function git_sparse_clone() {
 git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebrowser luci-app-ssr-mudb-server
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
-#git clone --depth=1 https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
+git clone --depth=1 https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
 git clone --depth=1 https://github.com/yunhair/luci-app-tailscale package/luci-app-tailscale
 git clone --depth=1 https://github.com/yunhair/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
 
