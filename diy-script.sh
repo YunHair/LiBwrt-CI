@@ -38,12 +38,12 @@ function git_sparse_clone() {
 #git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-app-netdata
 git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebrowser luci-app-ssr-mudb-server
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
-# git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
-git clone --depth=1 https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
+git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
+#git clone --depth=1 https://github.com/animegasan/luci-app-wolplus package/luci-app-wolplus
 git clone --depth=1 https://github.com/yunhair/luci-app-tailscale package/luci-app-tailscale
 git clone --depth=1 https://github.com/yunhair/luci-app-unblockneteasemusic package/luci-app-unblockneteasemusic
-git clone --depth=1 https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
-git clone --depth=1 https://github.com/yunhair/luci-app-advancedplus package/luci-app-advancedplus
+#git clone --depth=1 https://github.com/sirpdboy/luci-theme-kucat package/luci-theme-kucat
+#git clone --depth=1 https://github.com/yunhair/luci-app-advancedplus package/luci-app-advancedplus
 
 # 科学上网插件
 #git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
@@ -68,7 +68,7 @@ cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-stat
 #git_sparse_clone main https://github.com/ophub/luci-app-amlogic luci-app-amlogic
 #sed -i "s|firmware_repo.*|firmware_repo 'https://github.com/haiibo/OpenWrt'|g" package/luci-app-amlogic/root/etc/config/amlogic
 # sed -i "s|kernel_path.*|kernel_path 'https://github.com/ophub/kernel'|g" package/luci-app-amlogic/root/etc/config/amlogic
-sed -i "s|ARMv8|ARMv8_PLUS|g" package/luci-app-amlogic/root/etc/config/amlogic
+#sed -i "s|ARMv8|ARMv8_PLUS|g" package/luci-app-amlogic/root/etc/config/amlogic
 
 # SmartDNS
 git clone --depth=1 -b lede https://github.com/pymumu/luci-app-smartdns package/luci-app-smartdns
