@@ -1,4 +1,4 @@
-name: IPQ60XX-WIFI-DOCKER-TEST
+name: IPQ60XX-WIFI-DOCKER
 
 on:
   workflow_dispatch:
